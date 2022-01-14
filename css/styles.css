@@ -1,0 +1,154 @@
+body{
+   background-color: #232323;
+
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: white;
+  /* padding-top: 30px;
+  padding-left: 20px; */
+  line-height: 2rem;
+}
+
+h1{
+  background: -webkit-linear-gradient(pink, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+font-family: 'Poppins', sans-serif;
+font-weight: bolder;
+font-size: 3rem;
+color: white;
+padding-top: 30px;
+padding-left: 20px;
+line-height: 4rem;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #D8D8D8;
+    font-weight: lighter;
+    padding-top: 10px;
+
+}
+
+a:hover{
+  color: white;
+}
+
+
+
+.nav-bar{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #D8D8D8;
+  font-weight: lighter;
+  padding-top: 20px;
+  padding-right: 30px;
+
+}
+
+.bar{
+  background-color: black;
+
+}
+.bar-text{
+    color: white;
+}
+
+.main-section{
+  margin-top: 70px;
+  width: 80%;
+  margin-left: 100px;
+}
+.main{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+   box-shadow: 10px 10px 10px  black;
+}
+
+.text-fields{
+  padding-left: 80px;
+
+}
+.text-field{
+  background-color: black;
+  border-color: #D8D8D8;
+  color: white;
+}
+
+
+.w3-input{
+  width: 80%;
+  border-radius: 7%;
+}
+
+
+
+
+.footer{
+
+  padding: 40px 30px;
+  background-image: linear-gradient( black, #1C6DD0);
+  margin-top: 80px;
+  color: white;
+}
+
+.footer-column{
+  align-items: center;
+}
+
+
+.icons{
+
+  padding-right: 20px;
+  border-radius: 30%;
+
+}
+
+
+
+
+.register-button{
+  margin-left: 20px;
+  width: 35%;
+  height: 10%;
+  margin-top: 30px;
+  align-self: center;
+  font-family: 'Poppins', sans-serif;
+  color:  white;
+  background-color: black;
+  font-weight: bolder;
+
+}
+
+
+
+@media screen and (max-width:1028px){
+
+.bar{
+  text-align: center;
+
+}
+.main-section{
+  text-align:center;
+
+}
+
+.footer{
+  margin-top: 80px;
+}
+
+.icons{
+  padding-right: 35px;
+}
+
+}
